@@ -52,7 +52,7 @@ instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
 flat_array = instruments.flatten 
 end
 
-def using_delete(instructors, string)
+ef using_delete(instructors, string)
 instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
 no_offense_steven = instructors.delete("Steven")
 puts instructors
